@@ -1,0 +1,22 @@
+{
+  "name": "Odoo toggle debug",
+  "manifest_version": 2,
+  "version": "1.2",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "applications": {
+    "gecko": {
+      "id": "odoo-toggle-debug@cyrilgdn"
+    }
+  },
+  "commands": {
+    "toggle-feature": {
+      "suggested_key": { "default": "Alt+Shift+X" },
+      "description": "Send a 'toggle-feature' event to the extension"
+    }
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
